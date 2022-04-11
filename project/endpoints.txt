@@ -1,0 +1,11 @@
+all the students, enrolled in any courses: 'http://127.0.0.1:8000/students/'
+any specific student: 'http://127.0.0.1:8000/student/<uuid:id>/'
+
+all the subjects: 'http://127.0.0.1:8000/subjects/'
+any specific subject: 'http://127.0.0.1:8000/subject/<uuid:id>/'
+
+all the courses and their corresponding subjects: 'http://127.0.0.1:8000/courses/'
+any specific course and their corresponding subjects: 'http://127.0.0.1:8000/course/<uuid:id>/'
+
+all the enrollments and their corresponding students and their courses: 'http://127.0.0.1:8000/enrollments/'
+any specific enrollment and their corresponding students and their courses: 'http://127.0.0.1:8000/enrollemnt/<uuid:id>/'
